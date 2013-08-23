@@ -13,7 +13,13 @@
             <entry key="KeyPatternReplacement" value=""/>
             <entry key="abbrAuthorNames" value="true"/>
             <entry key="activeFieldEditorBackgroundColor" value="220:220:255"/>
+            <entry key="allowFileAutoOpenBrowse" value="true"/>
             <entry key="allowTableEditing" value="false"/>
+            <entry key="arxivColumn" value="false"/>
+            <entry key="autoAssignGroup" value="true"/>
+            <entry key="autoCompFF" value="false"/>
+            <entry key="autoCompFirstNameMode" value="both"/>
+            <entry key="autoCompLF" value="false"/>
             <entry key="autoComplete" value="true"/>
             <entry key="autoCompleteFields" value="author;editor;title;journal;publisher;keywords;crossref"/>
             <entry key="autoDoubleBraces" value="false"/>
@@ -24,8 +30,13 @@
             <entry key="autolinkExactKeyOnly" value="true"/>
             <entry key="avoidOverwritingKey" value="false"/>
             <entry key="backup" value="true"/>
+            <entry key="bibLocAsPrimaryDir" value="false"/>
+            <entry key="bibLocationAsFileDir" value="true"/>
             <entry key="biblatexMode" value="false"/>
+            <entry key="caseSensitiveSearch" value="false"/>
             <entry key="citeseerColumn" value="false"/>
+            <entry key="columnNames" value="entrytype;author;title;year;journal;booktitle;timestamp"/>
+            <entry key="columnWidths" value="75;280;400;60;100;100;100"/>
             <entry key="confirmDelete" value="true"/>
             <entry key="ctrlClick" value="false"/>
             <entry key="defaultEncoding" value="ISO8859_1"/>
@@ -36,15 +47,18 @@
             <entry key="dialogWarningForEmptyKey" value="true"/>
             <entry key="disableOnMultipleSelection" value="false"/>
             <entry key="doNotResolveStringsFor" value="url"/>
+            <entry key="emailSubject" value="References"/>
             <entry key="enableSourceEditing" value="true"/>
             <entry key="enforceLegalBibtexKey" value="true"/>
+            <entry key="entryEditorHeight" value="400"/>
             <entry key="exportInOriginalOrder" value="false"/>
             <entry key="exportInStandardOrder" value="true"/>
             <entry key="fieldEditorTextColor" value="0:0:0"/>
             <entry key="fileColumn" value="true"/>
-            <entry key="fileDirectory" value=""/>
+            <entry key="fileDirectory" value="/home/tjpalmer/Workspace/tomobib/files"/>
             <entry key="filechooserDisableRename" value="true"/>
             <entry key="floatMarkedEntries" value="true"/>
+            <entry key="floatSearch" value="false"/>
             <entry key="fontFamily" value="SansSerif"/>
             <entry key="fontSize" value="12"/>
             <entry key="fontStyle" value="0"/>
@@ -58,10 +72,18 @@
             <entry key="groupShowDynamic" value="true"/>
             <entry key="groupShowIcons" value="true"/>
             <entry key="groupsDefaultField" value="keywords"/>
+            <entry key="highLightWords" value="true"/>
+            <entry key="highlightGroupsMatchingAll" value="false"/>
+            <entry key="highlightGroupsMatchingAny" value="false"/>
+            <entry key="importAlwaysUsePDFImportStyle" value="false"/>
+            <entry key="importDefaultPDFimportStyle" value="2"/>
+            <entry key="importFileNamePattern" value="\bibtexkey"/>
             <entry key="incompleteEntryBackground" value="250:175:175"/>
+            <entry key="incrementS" value="false"/>
             <entry key="invalidFieldBackgroundColor" value="255:0:0"/>
             <entry key="keyGenAlwaysAddLetter" value="false"/>
             <entry key="keyGenFirstLetterA" value="true"/>
+            <entry key="lastEdited" value="/home/tjpalmer/Workspace/tomobib/tomobib.bib"/>
             <entry key="lookAndFeel" value="com.sun.java.swing.plaf.gtk.GTKLookAndFeel"/>
             <entry key="markImportedEntries" value="true"/>
             <entry key="markedEntryBackground0" value="255:255:180"/>
@@ -75,42 +97,61 @@
             <entry key="namesFf" value="false"/>
             <entry key="namesLastOnly" value="false"/>
             <entry key="namesNatbib" value="true"/>
+            <entry key="numberColWidth" value="32"/>
+            <entry key="openFoldersOfAttachedFiles" value="false"/>
             <entry key="openLastEdited" value="true"/>
             <entry key="overrideDefaultFonts" value="false"/>
             <entry key="overwriteOwner" value="false"/>
             <entry key="overwriteTimeStamp" value="false"/>
             <entry key="pdfColumn" value="false"/>
             <entry key="pdfDirectory" value=""/>
+            <entry key="pdfPreview" value="false"/>
             <entry key="posX" value="-1"/>
-            <entry key="posY" value="26"/>
+            <entry key="posY" value="-4"/>
             <entry key="preview0" value="&lt;font face=&quot;arial&quot;&gt;&lt;b&gt;&lt;i&gt;\bibtextype&lt;/i&gt;&lt;a name=&quot;\bibtexkey&quot;&gt;\begin{bibtexkey} (\bibtexkey)&lt;/a&gt;\end{bibtexkey}&lt;/b&gt;&lt;br&gt;__NEWLINE__\begin{author} \format[HTMLChars,AuthorAbbreviator,AuthorAndsReplacer]{\author}&lt;BR&gt;\end{author}__NEWLINE__\begin{editor} \format[HTMLChars,AuthorAbbreviator,AuthorAndsReplacer]{\editor} &lt;i&gt;(\format[IfPlural(Eds.,Ed.)]{\editor})&lt;/i&gt;&lt;BR&gt;\end{editor}__NEWLINE__\begin{title} \format[HTMLChars]{\title} \end{title}&lt;BR&gt;__NEWLINE__\begin{chapter} \format[HTMLChars]{\chapter}&lt;BR&gt;\end{chapter}__NEWLINE__\begin{journal} &lt;em&gt;\format[HTMLChars]{\journal}, &lt;/em&gt;\end{journal}__NEWLINE__\begin{booktitle} &lt;em&gt;\format[HTMLChars]{\booktitle}, &lt;/em&gt;\end{booktitle}__NEWLINE__\begin{school} &lt;em&gt;\format[HTMLChars]{\school}, &lt;/em&gt;\end{school}__NEWLINE__\begin{institution} &lt;em&gt;\format[HTMLChars]{\institution}, &lt;/em&gt;\end{institution}__NEWLINE__\begin{publisher} &lt;em&gt;\format[HTMLChars]{\publisher}, &lt;/em&gt;\end{publisher}__NEWLINE__\begin{year}&lt;b&gt;\year&lt;/b&gt;\end{year}\begin{volume}&lt;i&gt;, \volume&lt;/i&gt;\end{volume}\begin{pages}, \format[FormatPagesForHTML]{\pages} \end{pages}__NEWLINE__\begin{abstract}&lt;BR&gt;&lt;BR&gt;&lt;b&gt;Abstract: &lt;/b&gt; \format[HTMLChars]{\abstract} \end{abstract}__NEWLINE__\begin{review}&lt;BR&gt;&lt;BR&gt;&lt;b&gt;Review: &lt;/b&gt; \format[HTMLChars]{\review} \end{review}&lt;/dd&gt;__NEWLINE__&lt;p&gt;&lt;/p&gt;&lt;/font&gt;"/>
             <entry key="preview1" value="&lt;font face=&quot;arial&quot;&gt;&lt;b&gt;&lt;i&gt;\bibtextype&lt;/i&gt;&lt;a name=&quot;\bibtexkey&quot;&gt;\begin{bibtexkey} (\bibtexkey)&lt;/a&gt;\end{bibtexkey}&lt;/b&gt;&lt;br&gt;__NEWLINE__\begin{author} \format[HTMLChars,AuthorAbbreviator,AuthorAndsReplacer]{\author}&lt;BR&gt;\end{author}__NEWLINE__\begin{editor} \format[HTMLChars,AuthorAbbreviator,AuthorAndsReplacer]{\editor} &lt;i&gt;(\format[IfPlural(Eds.,Ed.)]{\editor})&lt;/i&gt;&lt;BR&gt;\end{editor}__NEWLINE__\begin{title} \format[HTMLChars]{\title} \end{title}&lt;BR&gt;__NEWLINE__\begin{chapter} \format[HTMLChars]{\chapter}&lt;BR&gt;\end{chapter}__NEWLINE__\begin{journal} &lt;em&gt;\format[HTMLChars]{\journal}, &lt;/em&gt;\end{journal}__NEWLINE__\begin{booktitle} &lt;em&gt;\format[HTMLChars]{\booktitle}, &lt;/em&gt;\end{booktitle}__NEWLINE__\begin{school} &lt;em&gt;\format[HTMLChars]{\school}, &lt;/em&gt;\end{school}__NEWLINE__\begin{institution} &lt;em&gt;\format[HTMLChars]{\institution}, &lt;/em&gt;\end{institution}__NEWLINE__\begin{publisher} &lt;em&gt;\format[HTMLChars]{\publisher}, &lt;/em&gt;\end{publisher}__NEWLINE__\begin{year}&lt;b&gt;\year&lt;/b&gt;\end{year}\begin{volume}&lt;i&gt;, \volume&lt;/i&gt;\end{volume}\begin{pages}, \format[FormatPagesForHTML]{\pages} \end{pages}&lt;/dd&gt;__NEWLINE__&lt;p&gt;&lt;/p&gt;&lt;/font&gt;"/>
+            <entry key="previewEnabled" value="true"/>
+            <entry key="previewPanelHeight" value="200"/>
             <entry key="priDescending" value="false"/>
-            <entry key="priSort" value="author"/>
+            <entry key="priSort" value="booktitle"/>
             <entry key="promptBeforeUsingAutosave" value="true"/>
             <entry key="psDirectory" value=""/>
             <entry key="pushToApplication" value="Insert selected citations into LyX/Kile"/>
+            <entry key="recentFiles" value="/home/tjpalmer/Workspace/tomobib/tomobib.bib"/>
+            <entry key="regExpSearch" value="true"/>
             <entry key="resolveStringsAllFields" value="false"/>
             <entry key="runAutomaticFileSearch" value="false"/>
             <entry key="saveInOriginalOrder" value="false"/>
             <entry key="saveInStandardOrder" value="true"/>
-            <entry key="searchPanelVisible" value="false"/>
-            <entry key="secDescending" value="true"/>
-            <entry key="secSort" value="year"/>
+            <entry key="searchAll" value="false"/>
+            <entry key="searchAllBases" value="false"/>
+            <entry key="searchGen" value="true"/>
+            <entry key="searchOpt" value="true"/>
+            <entry key="searchPanelVisible" value="true"/>
+            <entry key="searchReq" value="true"/>
+            <entry key="secDescending" value="false"/>
+            <entry key="secSort" value=""/>
+            <entry key="selectS" value="false"/>
+            <entry key="shortestToComplete" value="2"/>
+            <entry key="showOneLetterHeadingForIconColumns" value="false"/>
+            <entry key="showSearchInDialog" value="false"/>
             <entry key="showSource" value="true"/>
+            <entry key="sidePaneWidth" value="243"/>
             <entry key="sizeX" value="1368"/>
-            <entry key="sizeY" value="744"/>
+            <entry key="sizeY" value="743"/>
             <entry key="tableBackground" value="255:255:255"/>
             <entry key="tableColorCodesOn" value="true"/>
             <entry key="tableOptFieldBackground" value="230:255:230"/>
             <entry key="tableReqFieldBackground" value="230:235:255"/>
             <entry key="tableText" value="0:0:0"/>
             <entry key="terDescending" value="false"/>
-            <entry key="terSort" value="author"/>
+            <entry key="terSort" value=""/>
             <entry key="timeStampField" value="timestamp"/>
             <entry key="timeStampFormat" value="yyyy.MM.dd"/>
             <entry key="unmarkAllEntriesBeforeImporting" value="true"/>
             <entry key="urlColumn" value="true"/>
+            <entry key="useCaseKeeperOnSearch" value="true"/>
+            <entry key="useConvertToEquation" value="false"/>
             <entry key="useDefaultLookAndFeel" value="false"/>
             <entry key="useIEEEAbrv" value="true"/>
             <entry key="useImportInspectionDialog" value="true"/>
